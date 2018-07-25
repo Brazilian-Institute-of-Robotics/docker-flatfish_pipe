@@ -1,7 +1,7 @@
 #!/bin/sh
 
 AUTOPROJ_INSTALL_URL=https://raw.githubusercontent.com/rock-core/autoproj/master/bin/autoproj_install
-BOOTSTRAP_URL=git@github.com:Brazilian-Institute-of-Robotics/bir.flat_fish.br-buildconf.git
+BOOTSTRAP_URL=https://raw.githubusercontent.com/Brazilian-Institute-of-Robotics/bir.flat_fish.pipe-buildconf/master/bootstrap.sh
 
 set -e
 

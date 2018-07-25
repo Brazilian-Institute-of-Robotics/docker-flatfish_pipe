@@ -14,6 +14,6 @@ docker run -it \
     --volume="/etc/shadow:/etc/shadow:ro" \
     --volume="/etc/sudoers.d:/etc/sudoers.d:ro" \
     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-    --name flatfish \
-    flatfish \
+    --name flatfish_pipe \
+    flatfish_pipe \
     /bin/bash

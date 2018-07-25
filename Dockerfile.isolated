@@ -1,4 +1,4 @@
-FROM flatfish
+FROM flatfish_pipe
 
 ENV USERNAME $USER
 ENV UUID $UUID

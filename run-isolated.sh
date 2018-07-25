@@ -49,7 +49,8 @@ docker run -it \
         --env="TERM" \
         --user="$USER" \
         --workdir="$HOME" \
-        --name flatfish \
+        --name flatfish_pipe \
+        --ipc host \
         --privileged \
-        flatfish:isolated \
+        flatfish_pipe:isolated \
         /bin/bash
